@@ -133,7 +133,7 @@ class ZjolSpider(RedisSpider):
         timearr = []
         pic_list = self.pic_find(response)
         item = zjolItem()
-        item['img_name'] = 'souhu'
+        item['img_name'] = 'zjol'
         item['img_url'] = response.url
         item['html'] = response
 
