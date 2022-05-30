@@ -25,16 +25,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['Imag_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['Title'],
-                    Html='html',
-                    Info_Url=item['Info_Url'],
-                    Imag_contnet=item['Imag_content'],
-                    Imag_Urls=item['Imag_Urls'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['Title'],
+            #         Html='html',
+            #         Info_Url=item['Info_Url'],
+            #         Imag_contnet=item['Imag_content'],
+            #         Imag_Urls=item['Imag_Urls'],
+            #         createBy="Leo"
+            #     )
 
 
         # fu
@@ -49,16 +49,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['img_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['img_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, hzItem):
             # 杭州爬虫数据处理
@@ -71,16 +71,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['img_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['img_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, qqItem):
             # QQ爬虫数据处理
@@ -93,16 +93,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['img_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['img_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, zjolItem):
             # zjol爬虫数据处理
@@ -115,16 +115,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['img_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['img_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         # qian
         elif isinstance(item, ChinaItem):
@@ -138,16 +138,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['info_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['info_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, ChinayouthItem):
             # 青年爬虫数据处理
@@ -160,16 +160,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['info_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['info_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, PeopleItem):
             # 人民爬虫数据处理
@@ -182,16 +182,16 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['info_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['info_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         elif isinstance(item, YangguangItem):
             # 阳光爬虫数据处理
@@ -204,15 +204,15 @@ class TeamProjectPipeline:
             print('截图时间：', item['timearr'][2] - item['timearr'][1])
             print(len(item['img_content']))
             print('\r' * 2)
-            # 发送数据
-            if len(item['img_content']) > 1:
-                spider2save(
-                    Title=item['img_name'],
-                    Html='html',
-                    Info_Url=item['info_url'],
-                    Imag_contnet=item['img_content'],
-                    Imag_Urls=item['img_src'],
-                    createBy="Leo"
-                )
+            # # 发送数据
+            # if len(item['img_content']) > 1:
+            #     spider2save(
+            #         Title=item['img_name'],
+            #         Html='html',
+            #         Info_Url=item['info_url'],
+            #         Imag_contnet=item['img_content'],
+            #         Imag_Urls=item['img_src'],
+            #         createBy="Leo"
+            #     )
 
         return item
